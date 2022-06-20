@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
+  <main class="center bg-image">
 
-  Order Summary
+    <Section class="container round-corner">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <img src="/images/illustration-hero.svg" alt="girld listening to music and dancing">
 
-  Annual Plan
-  $59.99/year
+      <header>
+        <h1 class="header-h1 dark-blue">Order Summary</h1>
+        <p class="header-p pale-blue">You can now listen to millions of songs, audiobooks, and podcasts on any device
+          anywhere you like!</p>
+      </header>
 
-  Change
+      <main class="round-corner">
+        <img src="/images/icon-music.svg" width="50px" alt="">
+        <p class="desktop"><span class="bold dark-blue">Annual Plan</span> </br> <span
+            class="pale-blue">$59.99/year</span></p>
+        <p></p>
+        <a href="#" class="plan-change cursor">Change</a>
+      </main>
+      <button class="blue-button cursor">Proceed to Payment</button>
+      <a href="#" class="block cancel pale-blue cursor">Cancel Order</a>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    </Section>
+  </main>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
